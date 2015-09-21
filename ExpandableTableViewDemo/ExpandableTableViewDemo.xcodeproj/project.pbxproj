@@ -22,6 +22,7 @@
 		9AB6F7151BAFEA8B0026AE6D /* GJSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB6F7121BAFEA8B0026AE6D /* GJSectionItem.m */; settings = {ASSET_TAGS = (); }; };
 		9AB6F7161BAFEA8B0026AE6D /* GJRowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB6F7141BAFEA8B0026AE6D /* GJRowItem.m */; settings = {ASSET_TAGS = (); }; };
 		9AB6F71C1BAFF2BE0026AE6D /* UIColor+GJColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB6F71B1BAFF2BE0026AE6D /* UIColor+GJColor.m */; settings = {ASSET_TAGS = (); }; };
+		9ACC12A01BB0149600A59BA4 /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ACC129F1BB0149600A59BA4 /* demo.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		9AB6F7141BAFEA8B0026AE6D /* GJRowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJRowItem.m; sourceTree = "<group>"; };
 		9AB6F71A1BAFF2BE0026AE6D /* UIColor+GJColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GJColor.h"; sourceTree = "<group>"; };
 		9AB6F71B1BAFF2BE0026AE6D /* UIColor+GJColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GJColor.m"; sourceTree = "<group>"; };
+		9ACC129F1BB0149600A59BA4 /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		9AB6F6D81BAFEA270026AE6D = {
 			isa = PBXGroup;
 			children = (
+				9ACC129F1BB0149600A59BA4 /* demo.png */,
 				9AB6F6E31BAFEA270026AE6D /* ExpandableTableViewDemo */,
 				9AB6F6E21BAFEA270026AE6D /* Products */,
 			);
@@ -194,6 +197,7 @@
 				9AB6F6F41BAFEA270026AE6D /* LaunchScreen.storyboard in Resources */,
 				9AB6F7091BAFEA700026AE6D /* GJExpandableTableView.xib in Resources */,
 				9AB6F70B1BAFEA700026AE6D /* GJExpandableTableSection.xib in Resources */,
+				9ACC12A01BB0149600A59BA4 /* demo.png in Resources */,
 				9AB6F70F1BAFEA700026AE6D /* GJExpandableTableCell.xib in Resources */,
 				9AB6F6F11BAFEA270026AE6D /* Assets.xcassets in Resources */,
 				9AB6F6EF1BAFEA270026AE6D /* Main.storyboard in Resources */,
@@ -364,6 +368,7 @@
 				9AB6F6FA1BAFEA270026AE6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -27,6 +27,8 @@
     self.extendedLayoutIncludesOpaqueBars = NO;
     self.automaticallyAdjustsScrollViewInsets = NO;
     
+    self.title = @"Expandable Table View";
+    
     self.expandableTableView.items = [self items];
 }
 
