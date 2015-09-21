@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GJExpandableTableSection">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="52"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Course Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cge-r9-nod">
+                    <rect key="frame" x="10" y="0.0" width="582" height="52"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down" translatesAutoresizingMaskIntoConstraints="NO" id="2uZ-kY-7MJ">
+                    <rect key="frame" x="554" y="7" width="38" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="38" id="1s1-ba-dgV"/>
+                        <constraint firstAttribute="height" constant="38" id="uRt-fJ-Egu"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="2uZ-kY-7MJ" secondAttribute="centerY" id="3i9-5Q-lVh"/>
+                <constraint firstItem="cge-r9-nod" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="BVe-dm-fQl"/>
+                <constraint firstAttribute="trailing" secondItem="2uZ-kY-7MJ" secondAttribute="trailing" constant="8" id="gC5-j8-oG4"/>
+                <constraint firstItem="cge-r9-nod" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="msv-MR-bD9"/>
+                <constraint firstAttribute="trailing" secondItem="cge-r9-nod" secondAttribute="trailing" constant="8" id="tnT-eg-NTQ"/>
+                <constraint firstAttribute="bottom" secondItem="cge-r9-nod" secondAttribute="bottom" id="zlo-Fx-aG2"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="accessoryImageView" destination="2uZ-kY-7MJ" id="39e-fP-SUj"/>
+                <outlet property="headerLabel" destination="cge-r9-nod" id="mfH-7U-QX6"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="down" width="38" height="38"/>
+    </resources>
+</document>
